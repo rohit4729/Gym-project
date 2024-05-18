@@ -18,22 +18,46 @@ body{
     
 }
 
-.left{
+.left{ 
     display: inline-block;
-border: 2px solid red;
+    border: 2px solid red;
+    position:absolute;
+    left:34px;
+    top:0px;
+   
+
 }
 
 .mid{
-    display: inline-block;
-    border: 2px solid rgb(103, 5, 5);
+  background-color: black;
+  width:33%;
+  margin:auto; 
+    border: 2px solid white;
 }
 
 .right{
+    position:absolute;
+    right:34px;
+    top:0px;
     display: inline-block;
-    border: 2px solid rgb(223, 99, 99);
+    border: 2px solid yellow;
 }
 </style>
 <body>
+    <header class="header">
+<!-- left box for logo -->
+<div class="left">
+I am left 
+</div>
+<!-- mid box for navbar -->
+<div class="mid">
+I am mid    
+</div>
+<!-- right box for button -->
+<div class="right">
+I am right 
+</div>
 
+</header>
 </body>
 </html>
